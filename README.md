@@ -1,2 +1,28 @@
-# LCOE
-MATLAB LCOE analysis with examples for offshore wind, hydropower, and Monte Carlo simulations. Includes CAPEX, OPEX, inflation effects, and uncertainty analysis.
+# Levelized Cost of Energy (LCOE) Analysis
+
+## Overview
+This repository contains MATLAB scripts and data for analyzing the **Levelized Cost of Energy (LCOE)** across different energy sources, including offshore wind and hydropower. The analysis includes sensitivity studies on **CAPEX, OPEX, inflation rate**, and **Monte Carlo simulations** for uncertainty quantification.
+
+## Contents
+- `documentation.mlx` – MATLAB Live Script explaining the LCOE methodology with examples.
+- `calculateLCOE_switch.m` – Function to compute LCOE for different energy systems.
+- `violin.m`, `violinplot.m` – Violin plot functions for visualizing LCOE distributions [1].
+- `hydropower_lcoe.csv` – Data file containing hydropower cost parameters.
+
+## Features
+- Calculates **LCOE** using both simplified and year-by-year approaches.
+- Analyzes the **impact of CAPEX, OPEX, and inflation** over time.
+- Performs **Monte Carlo simulations** to evaluate LCOE uncertainties.
+- Uses **violin plots** for graphical representation of results.
+
+## Dependencies
+This analysis requires:
+- MATLAB (tested on R2023b)
+- The **Violinplot-Matlab** package [1]
+
+## Usage
+1. Open `documentation.mlx` in MATLAB.
+2. Run the script to compute and analyze LCOE for different energy sources.
+3. Modify input parameters as needed for custom scenarios.
+4. Use `calculateLCOE_switch.m` for standalone LCOE calculations.
+5. Ensure `violin.m` and `violinplot.m` are available for plotting.
