@@ -19,10 +19,3 @@ This repository contains MATLAB scripts and data for analyzing the **Levelized C
 This analysis requires:
 - MATLAB (tested on R2023b)
 - The **Violinplot-Matlab** package [1]
-
-## Usage
-1. Open `documentation.mlx` in MATLAB.
-2. Run the script to compute and analyze LCOE for different energy sources.
-3. Modify input parameters as needed for custom scenarios.
-4. Use `calculateLCOE_switch.m` for standalone LCOE calculations.
-5. Ensure `violin.m` and `violinplot.m` are available for plotting.
