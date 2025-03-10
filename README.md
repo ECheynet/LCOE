@@ -19,3 +19,9 @@ This repository contains MATLAB scripts and data for analyzing the **Levelized C
 This analysis requires:
 - MATLAB (tested on R2023b)
 - The **Violinplot-Matlab** package [1]
+
+## Warning  
+This is the **first version** of the code. While efforts have been made to ensure accuracy, there may be errors.
+  
+## References
+[1] bastibe (2025). Violinplot-Matlab (https://github.com/bastibe/Violinplot-Matlab), GitHub. Retrieved March 10, 2025.  
